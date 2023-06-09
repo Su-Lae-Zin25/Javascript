@@ -1,0 +1,30 @@
+<html>
+	<body>
+		<h2>Javascript For In Loop</h2>
+
+		<h1>for(	){        } = syntax</h1>
+		<h1>The <i><b>for in</b></i> loop iterates over a person object</h1>
+
+		<h1>Each iteration returns a <b><i>key</i></b> (x)</h1>
+
+		
+
+		<p id="zuzu"></p>
+
+
+		<script>
+
+		let person ={fname:"SuLaeZin", nName:"ZuZu", age:16};
+
+		var txt = "";
+		for (let x in person){
+			txt+= person[x] + " ";
+		}
+
+		document.getElementById("zuzu").innerHTML = txt;
+
+		</script>
+
+	</body>
+
+</html>
