@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h1>Javascript Object Constructors</h1>
+        <p id="me"></p>
+        <script>
+            function person(first, last, age, eye){
+                this.firstName = first;
+                this.lastName = last;
+                this.age = age;
+                this.eyeColor = eye;
+            }
+            const me = new person ("Redy", "Null", 16, "black");
+            document.getElementById("me").innerHTML = "My name is "+ me.firstName5 +".";
+
+        </script>
+    </body>
+</html>
