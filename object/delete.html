@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h1>This is delete method</h1>
+        <p id="me"></p>
+        <script>
+            const person = {
+                fName:"Redy",
+                lName:"Null",
+                age: 16,
+            }
+            delete person.lName;
+            document.getElementById("me").innerHTML = "My name is "+ person.fName + " " + person.lName+".";
+            
+        </script>
+    </body>
+</html>

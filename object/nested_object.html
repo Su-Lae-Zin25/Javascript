@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h1>This is nested object.</h1>
+        <p id="demo"></p>
+        <script>
+            const one = {
+                name : "Redy",
+                age : 16,
+                two : {
+                    name2 : "Ried",
+                    age2 : 16,
+                }
+            }
+            document.getElementById("demo").innerHTML = "I am " + one.two.age2 +" years old.";
+        </script>
+    </body>
+</html>
